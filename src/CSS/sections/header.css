@@ -1,0 +1,30 @@
+@import url(/src/var/fonts.css);
+@import url(/src/var/colors.css);
+
+header{
+    display: flex;
+    flex-direction: row;
+    color: var(--black);
+    justify-content: space-between;
+    padding: 1rem 1rem 2rem 1rem;
+    font-size: 25px;
+    font-family: var(--comfortaa);
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 1.43432rem;
+}
+
+.menu li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--black);
+    font-weight: none !important;
+
+}
+
+
+

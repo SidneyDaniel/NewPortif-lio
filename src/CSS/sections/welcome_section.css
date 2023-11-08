@@ -87,3 +87,21 @@
     height: 30px;
     user-select: none;
 }
+
+.CV a {
+    padding: 12px;
+    border-radius: 2rem;
+    color: var(--black);
+    text-decoration: none;
+    user-select: none;
+    border: 2px solid var(--black);
+    font-family: var(--mitr);
+    font-weight: bold;
+    transition: 0.3s ease-out;
+
+}
+
+.CV:hover a {
+   background-color: var(--black);
+   color: var(--white);
+}

@@ -1,105 +1,138 @@
+.project_section .title{
+  font-family: var(--comfortaa);
+  font-weight: bold;
+  color: #0ad15b;
+  /* #72BF80 */
+  font-size: 2.5rem;margin-bottom: 0.7rem;
+}
 
+.project_section .paragraph{
+  font-family: var(--vietnan-san-serif);
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #0ad15b;
+}
 
 .all_projects{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
   }
   
   
-  .projetos {
-      width: 300px;
-      height: 280px;
-      padding: 0;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
-      border-radius: 8px;
-      box-sizing: border-box;
-      overflow: hidden;
-      z-index: 12;
-      background-color: var(--black);
-      flex-direction: row;
-      flex-wrap: wrap;
-      margin-bottom: 15px ;
-      margin-top: 15px;
-    }
-    
-    .projetos * {
-      transition: 0.3s ease all;
-    }
-    
-    .projetos img {
-      margin: 0;
-      width: 300px;
-      height: 224px;
-      object-fit: cover;
-      object-position: center;
-      display: block;
-    }
-    
-    .projetos h3 {
-      margin: 0;
-      padding: 12px 12px 48px;
-      line-height: 32px;
-      font-weight: 500;
-      font-size: 20px;
-      font-family: var(--vietnan-san-serif);
-      font-weight: bold;
-      color: var(--white);
-    }
-    
-    .projetos .overlay {
-      display: block;
-      padding: 8px 12px;
-      color: var(--white);
-    }
+.projetos {
+    width: 300px;
+    height: 280px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 12;
+    /* background-color: #008b8b;  #008080 */
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 15px ;
+    margin-top: 15px;
+    border: 1px solid #0ad15b;
+  }
   
-    .projetos .overlay ul{
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      text-decoration: none;
-      color: var(--brancoMeioEscuro);
-      gap: 1rem;
-      
-      
-    }
-  
-    .projetos .overlay ul a{
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 15px;
-      border-radius: 20px;
-      justify-content: space-between;
-      text-transform: uppercase;
-      color: var(--branco);
-      transition: 0.2s;
-      font-family: var(--mitr);
-      
-    } 
-  
-    .projetos .overlay ul a img{
-        height: 30px;
-        width: 30px;
-        filter: invert(1);
-        transform: translate(0rem, 4.7rem);
-      
-    } 
-        
-    .projetos p {
-      margin: 0;
-      line-height: 1.5;
-      
-    }
+  .projetos * {
+    transition: 0.3s ease all;
+  }
+
+  .projetos .stack_used{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    gap: 0.6rem;
+    transform: translate(0.5rem, -2.7rem);
+  }
+
+  .projetos .stack_used_icon{
+    height: 2rem;
+    object-fit: cover;
+    object-position: center;
+    filter: drop-shadow(2px 2px 0 white);
     
-    .projetos:hover img, .projetos:focus-within img {
-      margin-top: -80px;
-    }
+  }
+
+  /* .all_projects */
+  
+  .projetos .cover {
+    margin: 0;
+    width: 300px;
+    height: 224px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+  
+  .projetos h3 {
+    margin: 0;
+    padding: 12px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: var(--vietnan-san-serif);
+    font-weight: bold;
+    color: var(--black);
+  }
+  
+  .projetos .overlay {
+    display: block;
+    padding: 8px 12px;
+    color: var(--black);
+    font-family: var(--mitr);
+  }
+
+  .projetos .overlay ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: var(--brancoMeioEscuro);
+    gap: 1rem;
     
-    .projetos:hover h3, .projetos:focus-within h3 {
-      padding: 8px 12px 0;
+    
+  }
+
+  .projetos .overlay ul a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    color: var(--black);
+    transition: 0.2s;
+    font-family: var(--mitr);
+    
+  } 
+
+  .projetos .overlay ul a img{
+      height: 30px;
+      width: 30px;
+      /* filter: invert(1); */
+    
+  } 
       
-      
-    }
+  .projetos p {
+    margin: 0;
+    line-height: 1.5;
+    
+  }
+  
+  .projetos:hover .cover, .projetos:focus-within .cover {
+    margin-top: -80px;
+  }
+  
+  .projetos:hover h3, .projetos:focus-within h3 {
+    padding: 8px 12px 0;
+    
+    
+  }

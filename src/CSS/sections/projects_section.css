@@ -1,0 +1,105 @@
+
+
+.all_projects{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  
+  .projetos {
+      width: 300px;
+      height: 280px;
+      padding: 0;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+      border-radius: 8px;
+      box-sizing: border-box;
+      overflow: hidden;
+      z-index: 12;
+      background-color: var(--black);
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-bottom: 15px ;
+      margin-top: 15px;
+    }
+    
+    .projetos * {
+      transition: 0.3s ease all;
+    }
+    
+    .projetos img {
+      margin: 0;
+      width: 300px;
+      height: 224px;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    
+    .projetos h3 {
+      margin: 0;
+      padding: 12px 12px 48px;
+      line-height: 32px;
+      font-weight: 500;
+      font-size: 20px;
+      font-family: var(--vietnan-san-serif);
+      font-weight: bold;
+      color: var(--white);
+    }
+    
+    .projetos .overlay {
+      display: block;
+      padding: 8px 12px;
+      color: var(--white);
+    }
+  
+    .projetos .overlay ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      text-decoration: none;
+      color: var(--brancoMeioEscuro);
+      gap: 1rem;
+      
+      
+    }
+  
+    .projetos .overlay ul a{
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+      border-radius: 20px;
+      justify-content: space-between;
+      text-transform: uppercase;
+      color: var(--branco);
+      transition: 0.2s;
+      font-family: var(--mitr);
+      
+    } 
+  
+    .projetos .overlay ul a img{
+        height: 30px;
+        width: 30px;
+        filter: invert(1);
+        transform: translate(0rem, 4.7rem);
+      
+    } 
+        
+    .projetos p {
+      margin: 0;
+      line-height: 1.5;
+      
+    }
+    
+    .projetos:hover img, .projetos:focus-within img {
+      margin-top: -80px;
+    }
+    
+    .projetos:hover h3, .projetos:focus-within h3 {
+      padding: 8px 12px 0;
+      
+      
+    }

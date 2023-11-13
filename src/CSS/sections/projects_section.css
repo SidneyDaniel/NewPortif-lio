@@ -7,7 +7,9 @@
   font-weight: bold;
   color: #0ad15b;
   /* #72BF80 */
-  font-size: 2.5rem;margin-bottom: 0.7rem;
+  /* font-size: 2.5rem; */
+  font-size: clamp(1.8em, 5vw, 2.5rem );
+  margin-bottom: 0.7rem;
 }
 
 .project_section .paragraph{
@@ -19,12 +21,19 @@
 }
 
 .all_projects{
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 2rem;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 1rem; */
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    margin: 1rem;
+    gap: 2em;
+    width: 90vw;
+    border-radius: 1rem;
   }
   
   
@@ -139,4 +148,10 @@
     padding: 8px 12px 0;
     
     
+  }
+
+  @media screen and (max-width:680px) {
+    .all_projects{
+      width: 75vw;
+    }
   }

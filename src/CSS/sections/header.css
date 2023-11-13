@@ -26,5 +26,15 @@ header{
 
 }
 
+@media screen and (max-width:440px) {
+    header{
+        justify-content: center;
+    }
+    
+    header h1:first-of-type{
+        display: none;
+    }
+}
+
 
 

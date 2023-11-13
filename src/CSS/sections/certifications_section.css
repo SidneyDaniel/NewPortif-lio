@@ -4,6 +4,7 @@
 .certifications_section{
     min-height: 40vh;
     width: 80%;
+    margin-bottom: 2rem;
 }
 
 .certifications_section .title{
@@ -11,7 +12,8 @@
     text-align: end;
     color: #40e0d0;
     font-weight: bold;
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
+    font-size: clamp(1.8em, 5vw, 2.2rem );
     margin-bottom: 1rem;
     width: 90%;
     border-bottom: 3px solid #40e0d0;
@@ -34,6 +36,7 @@
 .list_of_certifications ul {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 

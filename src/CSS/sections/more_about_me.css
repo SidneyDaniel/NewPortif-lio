@@ -16,7 +16,8 @@
 .education .title{
     font-family: var(--comfortaa);
     font-weight: bold;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: clamp(1.8em, 5vw, 2.5rem );
     margin-bottom: 2rem;
     margin-left: 1rem;
     color: #ff0000;
@@ -26,6 +27,7 @@
 .education_experience{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1.3rem;
     margin-bottom: 1rem;
 }
@@ -36,6 +38,7 @@
     padding: 2rem 5rem;
     border: 1px solid var(--black);
     border-radius: 2rem;
+    flex: 1;
 }
 
 .education_experience .card span{
@@ -57,7 +60,9 @@
 .education{
     display: flex;
     flex-direction: column;
-    width: 60rem;
+    width: 65.485vw;
+    max-width: 60rem;
+    /* width: 60rem; */
 }
 
 

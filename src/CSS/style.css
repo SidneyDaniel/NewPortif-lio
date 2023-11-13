@@ -9,6 +9,9 @@
 @import url(/src/CSS/sections/contact_section.css);
 @import url(/src/CSS/sections/footer.css);
 
+*{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: var(--white);
@@ -25,5 +28,30 @@ main{
 
 :any-link{
     text-decoration: none;
+}
+
+:target{
+    scroll-margin-top: 2rem;
+}
+
+body::-webkit-scrollbar{
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track{
+    background: #242424;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 0.5s ease;
+    
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(255, 255, 255);
+   
+    
 }
 

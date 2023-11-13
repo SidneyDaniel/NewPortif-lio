@@ -1,5 +1,5 @@
-@import url(../var/colors.css);
-@import url(../var/fonts.css);
+@import url(/src/var/colors.css);
+@import url(/src/var/fonts.css);
 
 .contact_section{
     min-height: 30vh;
@@ -11,7 +11,8 @@
     color: #4DADFF; 
     /* #964B00 */
     font-weight: bold;
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
+    font-size: clamp(1.8em, 5vw, 2.5rem );
     margin-bottom: 1rem;
     width: 90%;
     border-bottom: 3px solid #4DADFF;
@@ -33,7 +34,9 @@
 }
 
 .links_of_contact a span{
-    font-size: 1.4rem;
+    /* font-size: 1.4rem; */
+    font-size: clamp(1em, 2vw, 1.4rem );
+
 }
 
 

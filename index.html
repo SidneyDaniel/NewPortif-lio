@@ -10,15 +10,15 @@
 
   <body>
 
-    <header class="header">
+    <header class="header" id="inicio">
     <h1>Sidney D.</h1>
 
     <nav>
         <ul class="menu">
         <li><a href="#inicio"       style="--i: 1">Ínicio        </a></li>
-        <li><a href="#Sobre"        style="--i: 2">Sobre         </a></li>
-        <li><a href="#Projetos"     style="--i: 3">Projetos      </a></li>
-        <li><a href="#Contato"      style="--i: 4">Contato       </a></li>
+        <li><a href="#sobre"        style="--i: 2">Sobre         </a></li>
+        <li><a href="#projetos"     style="--i: 3">Projetos      </a></li>
+        <li><a href="#contato"      style="--i: 4">Contato       </a></li>
         </ul>
     </nav>
     </header>
@@ -39,7 +39,7 @@
                 </div>
                 <div>
 
-                    <img src="" alt="" class="photo_perfil"> 
+                    <img src="./src/Assets/Photos/mold 2.svg" alt="" class="photo_perfil"> 
                 </div>
             </div> 
 
@@ -94,9 +94,12 @@
         </div>
       </section>
 
-      <section class="more_about_me">
+      <section class="more_about_me" id="sobre">
           <div> 
-            <img src="" alt="">
+            <!-- <img src="" alt=""> -->
+            <!-- <spline-viewer url="https://prod.spline.design/of8XThJZKIWTRQMf/scene.splinecode"></spline-viewer> -->
+            <spline-viewer hint loading-anim url="https://prod.spline.design/of8XThJZKIWTRQMf/scene.splinecode"></spline-viewer>
+
           </div>
           
           <div class="education">
@@ -138,7 +141,7 @@
             </div>
       </section>
 
-      <section class="project_section">
+      <section class="project_section" id="projetos">
         
         <h1 class="title">Projetos</h1> 
         <p class="paragraph">Alguns dos meus projetos pessoais</p>           
@@ -272,7 +275,55 @@
 
       </section>
 
-      <section class="contact_section">
+      <section class="certifications_section">
+            <h1 class="title">Cursos Externos</h1>
+            <p class="paragraph">Algumas das minhas certificações de cursos que conclui até o momento</p>
+
+            <div class="list_of_certifications">
+                <ul>
+                    <li class="list_card">
+                        <div>
+                            <img src="https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg" alt="" srcset="">
+                            <h3 class="date">07.09.2022</h3>
+                        </div>
+                        <h2>Iniciante em Programação <br> T3 - ONE</h2>
+                    </li>
+                
+                    <li class="list_card">
+                        <div>
+                            <img src="https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg" alt="" srcset="">
+                            <h3 class="date">02.12.2022</h3>
+                        </div>
+                        <h2>Front End <br> T3 - ONE</h2>
+                    </li>
+                
+                    <li class="list_card">
+                        <div>
+                            <img src="https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg" alt="" srcset="">
+                            <h3 class="date">14.02.2023</h3>
+                        </div>
+                        <h2>Jva e Orientação a Objetos <br> T3 - ONE</h2>
+                    </li>
+                
+                    <li class="list_card">
+                        <div>
+                            <img src="https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg" alt="" srcset="">
+                            <h3 class="date">06.09.2022</h3>
+                        </div>
+                        <h2>Pratique HTML e CSS em projetos Web</h2>
+                    </li>
+                </ul>
+
+                <a href="#" class="view_more">
+                    Veja mais Certifcados
+                    <span class="material-symbols-outlined">
+                        chevron_right    
+                    </span>
+                </a>
+            </div>
+      </section>    
+
+      <section class="contact_section" id="contato">
         <h1 class="title">Contato</h1>
         
         <p class="paragraph">Que tal um bate-papo? 😊</p>
@@ -284,6 +335,18 @@
             <a href="mailto:sidneydaniel17@gmail.com">
                 <span class="title_email">E-mail<br></span>
                 <span class="email">sidneydaniel17@gmail.com</span>
+            </a>
+            
+        </div>
+
+        <div class="links_of_contact">
+            <span class="material-symbols-outlined iCon">
+                location_on
+            </span>
+
+            <a href="mailto:sidneydaniel17@gmail.com">
+                <span class="title_email">Localização<br></span>
+                <span class="email">Brasil</span>
             </a>
             
         </div>
@@ -302,5 +365,6 @@
     </footer>
 
     <script type="module" src="./src/JS/app.js"></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.496/build/spline-viewer.js"></script>
   </body>
 </html>

@@ -6,8 +6,8 @@
 
 }
 
-.more_about_me img{
-    background-color: red;
+.more_about_me spline-viewer{
+    /* background-color: red; */
     border-radius: 3rem;
     width: 400px;
     height: 390px;
@@ -19,6 +19,8 @@
     font-size: 2.5rem;
     margin-bottom: 2rem;
     margin-left: 1rem;
+    color: #ff0000;
+    border-bottom: 3px solid #ff0000;
 }
 
 .education_experience{

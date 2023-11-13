@@ -47,10 +47,10 @@
 
 
 .introduction .photo_perfil{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    background-color: red;
+    width: 250px;
+    height: 250px;
+    /* border-radius: 100%; */
+    /* background-color: red; */
     scale: 2;
 }
 

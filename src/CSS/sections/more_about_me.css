@@ -6,7 +6,7 @@
 
 }
 
-.more_about_me spline-viewer{
+.more_about_me img{
     /* background-color: red; */
     border-radius: 3rem;
     width: 400px;
@@ -82,4 +82,16 @@
     width: 100%;
     text-align: justify;
     font-family: var(--mitr);
+}
+
+
+@media screen and (max-width:1375px) {
+    .more_about_me img{
+        display: none;
+    }
+
+    .education{
+        width: 85vw;
+        max-width: 100%;
+    }
 }

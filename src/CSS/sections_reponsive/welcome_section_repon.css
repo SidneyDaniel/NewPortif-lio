@@ -3,16 +3,12 @@
         gap: 0 !important;
         margin-bottom: 2rem;
     }
-    
-    .more_about_me spline-viewer{
-        display: none;
-    }
 }
 
 
 @media screen and (max-width:865px) {
     .introduction .photo_perfil{
-        transform: scale(1.6) !important;
+        transform: scale(1.7) translateX(-2rem) !important;
     }
 }
 

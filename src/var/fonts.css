@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Bungee&family=Comfortaa:wght@300&family=Mitr:wght@200&family=Racing+Sans+One&family=Ultra&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Gugi&display=swap');
 
 
 :root{
@@ -11,4 +12,5 @@
     --mitr:'Mitr', sans-serif;
     --ultra: 'Ultra', serif;
     --cairo:'Cairo Play', cursive;
+    --gugi:'Gugi', sans-serif;
 }

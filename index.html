@@ -4,21 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/CSS/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <meta name="description" content="Portifólio Sid.Daniel.">
+    <!-- Primary Meta Tags -->
+    <title>Portfólio Sidney D.</title>
+    <meta name="title" content="Portfólio Sidney D." />
+    <meta name="description" content="" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Portfólio Sidney D." />
+    <meta property="og:description" content="Portifólio Sidney D." />
+    <meta property="og:image" content="./src/Assets/prints/welcomeIMG.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Portfólio Sidney D." />
+    <meta property="twitter:description" content="Portfólio Sidney D." />
+    <meta property="twitter:image" content="./src/Assets/prints/welcomeIMG.jpg" />
     <title>Document</title>
   </head>
 
   <body>
 
-    <header class="header">
+    <header class="header" id="inicio">
     <h1>Sidney D.</h1>
 
     <nav>
         <ul class="menu">
         <li><a href="#inicio"       style="--i: 1">Ínicio        </a></li>
-        <li><a href="#Sobre"        style="--i: 2">Sobre         </a></li>
-        <li><a href="#certificacao" style="--i: 3">Certificações </a></li>
-        <li><a href="#Projetos"     style="--i: 4">Projetos      </a></li>
-        <li><a href="#Contato"      style="--i: 5">Contato       </a></li>
+        <li><a href="#sobre"        style="--i: 2">Sobre         </a></li>
+        <li><a href="#projetos"     style="--i: 3">Projetos      </a></li>
+        <li><a href="#contato"      style="--i: 4">Contato       </a></li>
         </ul>
     </nav>
     </header>
@@ -37,9 +56,9 @@
                         me formando em ADS na Uninter. 
                     </p>
                 </div>
-                <div>
+                <div class="photo">
 
-                    <img src="" alt="" class="photo_perfil"> 
+                    <img src="./src/Assets/Photos/mold 3.svg" alt="" class="photo_perfil"> 
                 </div>
             </div> 
 
@@ -58,35 +77,310 @@
                     <h1>Tech Stack</h1>
 
                     <li>
-                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="">   
+                        <img src="./src/Assets/Ícons/HTML Logo.svg" alt="">   
                     </li>
 
                     <li>
-                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="">
+                        <img src="./src/Assets/Ícons/CSS Logo.svg" alt="">
                     </li>
 
                     <li>
-                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="">
+                        <img src="./src/Assets/Ícons/JS Logo.svg" alt="">
                     </li>
 
                     <li>
-                        <img src="https://cdn-icons-png.flaticon.com/512/1822/1822899.png" alt="">
+                        <img src="./src/Assets/Ícons/Python Logo.svg" alt="">
                     </li>
                     
                     <li>
-                        <img src="https://cdn-icons-png.flaticon.com/512/3291/3291669.png" alt="">
+                        <img src="/src/Assets/Ícons/Java Logo.svg" alt="">
                     </li>
 
                     <li>
-                        <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="">
+                        <img src="./src/Assets/Ícons/Node Logo.svg" alt="">
                     </li>
-                    <li><img src="https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png" alt=""></li>
+
+                    <li>
+                        <img src="./src/Assets/Ícons/FireStore Logo.svg" alt="">
+                    </li>
                 </ul>
 
             </div>
+
+            <div class="CV">
+                <a data-tooltip="alkdsfls" href="#">Download CV</a>
+            </div>
         </div>
       </section>
+
+      <section class="more_about_me" id="sobre">
+          <div> 
+            <img src="./src/Assets/Photos/room3D.svg" alt="">
+          </div>
+          
+          <div class="education">
+                <h1 class="title">Sobre mim </h1>
+                
+                <div class="education_experience">
+
+                    <span class="card">
+                        <span class="material-symbols-outlined">
+                            social_leaderboard
+                        </span>
+                        <h1>Experiências</h1>
+                        <h1>1 Ano</h1>
+                        <h1>Front-End</h1>
+                    </span>
+
+                    <span class="card">
+                        <span class="material-symbols-outlined">
+                            school
+                        </span>
+                        <h1>Educação</h1>
+                        <h1>2 anos e meio</h1>
+                        <h1>ADS - Análise e Desenvolvimento De Sistemas
+                            <br><i>Cursando</i></h1>
+                    </span>
+
+                </div>
+
+                <div class="education_text">
+                    <h2>Entusiasta da tecnologia</h2>
+                    <p> 
+                        Tenho 21 anos e estou cursando Análise e Desenvolvimento de Sistemas.
+                        Possuo conhecimento em HTML, CSS e JS. Sou recém-formado no programa Oracle Next Education. 
+                        Atualmente estou estudando JAVA para aprimorar minhas habilidades. 
+                        Sou dedicado e comprometido em aprender novas tecnologias para me desenvolver profissionalmente. 
+                        Estou sempre buscando novos desafios para crescer na minha carreira.
+                    </p>
+                </div>
+            </div>
+      </section>
+
+      <section class="project_section" id="projetos">
+        
+        <h1 class="title">Projetos</h1> 
+        <p class="paragraph">Alguns dos meus projetos pessoais</p>           
+        <div class="all_projects">
+
+            <div class="projetos">
+                <img src="https://cdn1.gnarususercontent.com.br/1/1297849/b8c2d902-3e63-4398-95fb-928f3cd1e896.png" class="cover"/>
+                
+                <ul class="stack_used">
+                    <img src="./src/Assets/Ícons/HTML Logo.svg" alt="" class="stack_used_icon">
+                    <img src="./src/Assets/Ícons/CSS Logo.svg" alt="" class="stack_used_icon">  
+                    <img src="./src/Assets/Ícons/JS Logo.svg" alt="" class="stack_used_icon"> 
+                </ul>
+
+                <h3>DECODER</h3>
+                <div class="overlay">
+                    <p>Projeto de codificador e decodificador JavaScript.<br/>
+                    <ul>
+                        <a href="https://sidneydaniel.github.io/Decodificador_JavaScript/" title="GitHub">
+                            <img src="/src/Assets/GitHubIcon.svg" alt="">
+                        </a>
+                        <a href="https://github.com/SidneyDaniel/Decodificador_JavaScript/tree/main" title="Repositório">
+                            <img src="/src/Assets/LinkIcon.svg"  alt="">
+                        </a>
+                    </ul>
+                    
+                    </p>
+                </div>
+            </div>
+
+            <div class="projetos">
+                <img src="https://cdn1.gnarususercontent.com.br/1/1297849/37b37301-2aa3-4588-aa4e-55a7857a6df7.png" class="cover"/>
+
+                <ul class="stack_used">
+                    <img src="./src/Assets/Ícons/HTML Logo.svg" alt="" class="stack_used_icon">
+                    <img src="./src/Assets/Ícons/CSS Logo.svg" alt="" class="stack_used_icon">  
+                    <img src="./src/Assets/Ícons/JS Logo.svg" alt="" class="stack_used_icon"> 
+                </ul>
+
+                <h3>Forca</h3>
+                <div class="overlay">
+                <p>Projeto JavaScript feito utilizando o Canvas.<br/>
+                    <ul>
+                        <a href="https://sidneydaniel.github.io/Forca/">
+                            <img src="/src/Assets/GitHubIcon.svg" alt="">
+                        </a>
+                        <a href="https://github.com/SidneyDaniel/Forca">
+                            <img src="/src/Assets/LinkIcon.svg"  alt="">
+                        </a>
+                    </ul>
+                </p>
+                </div>
+            </div>
+
+            <div class="projetos">
+                <img src="https://cdn1.gnarususercontent.com.br/1/1297849/087d3df2-96c6-4486-a3df-379d8d711933.png" class="cover"/>
+
+                <ul class="stack_used">
+                    <img src="./src/Assets/Ícons/HTML Logo.svg" alt="" class="stack_used_icon">
+                    <img src="./src/Assets/Ícons/CSS Logo.svg" alt="" class="stack_used_icon">  
+                    <img src="./src/Assets/Ícons/JS Logo.svg" alt="" class="stack_used_icon">
+                    <img src="./src/Assets/Ícons/Node Logo.svg" alt="" class="stack_used_icon"> 
+                    <img src="./src/Assets/Ícons/FireStore Logo.svg" alt="" class="stack_used_icon"> 
+ 
+                </ul>
+
+                <h3>Biblioteca Online</h3>
+                <div class="overlay">
+                <p>Biblioteca virtual com banco de dados NoSql e Node.js<br/>
+                    <ul>
+                        <a href="https://www.canva.com/design/DAFvp4VrTfw/g4_TrXk1PvwYsN1jrWF-0Q/view?utm_content=DAFvp4VrTfw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">
+                            <img src="./src/Assets/Ícons/Canvas Logo.svg">
+                        </a>
+                        <!-- <a href="https://sidneydaniel.github.io/litterisinventum/">
+                            <img src="/src/Assets/GitHubIcon.svg" alt="">
+                        </a> -->
+                        <!-- <a href="https://github.com/SidneyDaniel/litterisinventum">
+                            <img src="/src/Assets/LinkIcon.svg"  alt="">
+                        </a> -->
+                    </ul>
+                </p>
+                </div>
+            </div>
+            
+            <div class="projetos">
+                <img src="https://sidneydaniel.github.io/Portif-lio/assets/images/Projetos/LoveAndBox.png" class="cover"/>
+
+                <ul class="stack_used">
+                    <img src="./src/Assets/Ícons/HTML Logo.svg" alt="" class="stack_used_icon">
+                    <img src="./src/Assets/Ícons/CSS Logo.svg" alt="" class="stack_used_icon">  
+                    <img src="./src/Assets/Ícons/JS Logo.svg" alt="" class="stack_used_icon"> 
+                </ul>
+
+                <h3>Landing Page</h3>
+                <div class="overlay">
+                <p>Landing Page para uma loja de quadros.🚧Em Desenvolvimento🚧<br/>
+                    <ul>
+                        <a href="https://sidneydaniel.github.io/Love-In-Box/">
+                            <img src="/src/Assets/GitHubIcon.svg" alt="">
+                        </a>
+                        <a href="https://github.com/SidneyDaniel/Love-In-Box">
+                            <img src="/src/Assets/LinkIcon.svg"  alt="">
+                        </a>
+                    </ul>
+                </p>
+                </div>
+            </div>
+
+            <div class="projetos">
+                <img src="https://sidneydaniel.github.io/Portif-lio/assets/images/Projetos/Ecomerce.png" class="cover"/>
+
+                <ul class="stack_used">
+                    <img src="./src/Assets/Ícons/HTML Logo.svg" alt="" class="stack_used_icon">
+                    <img src="./src/Assets/Ícons/CSS Logo.svg" alt="" class="stack_used_icon">  
+                    <img src="./src/Assets/Ícons/JS Logo.svg" alt="" class="stack_used_icon"> 
+                </ul>
+
+                <h3>E-Comerce</h3>
+                <div class="overlay">
+                <p>Site de uma loja.<br/>🚧Em Desenvolvimento🚧<br/>
+                    <ul>
+                        <!-- <a href="">🚧Em Desenvolvimento🚧</a> -->
+                        <a href="https://github.com/SidneyDaniel/e_comerce">
+                            <img src="/src/Assets/GitHubIcon.svg" alt="">
+                        </a>
+                    </ul>
+                </p>
+            </div>
+                
+        </div>
+
+      </section>
+
+      <section class="certifications_section">
+            <h1 class="title">Cursos Externos</h1>
+            <p class="paragraph">Algumas das minhas certificações de cursos que conclui até o momento</p>
+
+            <div class="list_of_certifications">
+                <ul>
+                    <li class="list_card">
+                        <div>
+                            <img src="https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg" alt="" srcset="">
+                            <h3 class="date">07.09.2022</h3>
+                        </div>
+                        <h2>Iniciante em Programação <br> T3 - ONE</h2>
+                    </li>
+                
+                    <li class="list_card">
+                        <div>
+                            <img src="https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg" alt="" srcset="">
+                            <h3 class="date">02.12.2022</h3>
+                        </div>
+                        <h2>Front End <br> T3 - ONE</h2>
+                    </li>
+                
+                    <li class="list_card">
+                        <div>
+                            <img src="https://www.alura.com.br/assets/api/formacoes/categorias/programacao.svg" alt="" srcset="">
+                            <h3 class="date">14.02.2023</h3>
+                        </div>
+                        <h2>Jva e Orientação a Objetos <br> T3 - ONE</h2>
+                    </li>
+                
+                    <li class="list_card">
+                        <div>
+                            <img src="https://www.alura.com.br/assets/api/formacoes/categorias/front-end.svg" alt="" srcset="">
+                            <h3 class="date">06.09.2022</h3>
+                        </div>
+                        <h2>Pratique HTML e CSS em projetos Web</h2>
+                    </li>
+                </ul>
+
+                <a href="#" class="view_more">
+                    Veja mais Certifcados
+                    <span class="material-symbols-outlined">
+                        chevron_right    
+                    </span>
+                </a>
+            </div>
+      </section>    
+
+      <section class="contact_section" id="contato">
+        <h1 class="title">Contato</h1>
+        
+        <p class="paragraph">Que tal um bate-papo? 😊</p>
+        <div class="links_of_contact">
+            <span class="material-symbols-outlined iCon">
+                mail
+            </span>
+
+            <a href="mailto:sidneydaniel17@gmail.com">
+                <span class="title_email">E-mail<br></span>
+                <span class="email">sidneydaniel17@gmail.com</span>
+            </a>
+            
+        </div>
+
+        <div class="links_of_contact">
+            <span class="material-symbols-outlined iCon">
+                location_on
+            </span>
+
+            <a href="mailto:sidneydaniel17@gmail.com">
+                <span class="title_email">Localização<br></span>
+                <span class="email">Brasil</span>
+            </a>
+            
+        </div>
+
+      </section>
     </main>
-    <script type="module" src="./src/JS/app.js"></script>
+    
+    <footer>
+        <div>
+            <h5>
+                Copyright &copy; 
+                <span id="year">2023</span>
+                Sidney D. All Rights Reserved
+            </h5>
+        </div>
+    </footer>
+
+    <!-- <script type="module" src="./src/JS/app.js"></script> -->
+
   </body>
 </html>

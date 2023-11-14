@@ -1,5 +1,5 @@
-@import url(/src/var/fonts.css);
-@import url(/src/var/colors.css);
+/* @import url(/src/var/fonts.css);
+@import url(/src/var/colors.css); */
 
 header{
     display: flex;
@@ -24,6 +24,16 @@ header{
     color: var(--black);
     font-weight: none !important;
 
+}
+
+@media screen and (max-width:440px) {
+    header{
+        justify-content: center;
+    }
+    
+    header h1:first-of-type{
+        display: none;
+    }
 }
 
 

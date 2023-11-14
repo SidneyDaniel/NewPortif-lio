@@ -2,12 +2,12 @@
 @import url(../var/fonts.css);
 @import url(../CSS/reset.css);
 @import url(../CSS/sections/header.css);
-@import url(/src/CSS/sections/welcome_section.css);
-@import url(/src/CSS/sections/more_about_me.css);
-@import url(/src/CSS/sections/projects_section.css);
-@import url(/src/CSS/sections/certifications_section.css);
-@import url(/src/CSS/sections/contact_section.css);
-@import url(/src/CSS/sections/footer.css);
+@import url(../CSS/sections/welcome_section.css);
+@import url(../CSS/sections/more_about_me.css);
+@import url(../CSS/sections/projects_section.css);
+@import url(../CSS/sections/certifications_section.css);
+@import url(../CSS/sections/contact_section.css);
+@import url(../CSS/sections/footer.css);
 
 *{
     scroll-behavior: smooth;

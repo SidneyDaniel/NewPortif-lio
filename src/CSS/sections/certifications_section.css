@@ -82,9 +82,15 @@
     display: flex;
 }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:745px) {
+    .list_of_certifications .list_card{
+        max-width: 46%;
+    }
+    
+}
+
+@media screen and (max-width:491px) {
     .list_of_certifications .list_card{
         max-width: 100%;
     }
-    
 }
